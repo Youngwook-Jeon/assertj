@@ -1,4 +1,4 @@
-package io.young.dev;
+package io.young.dev.test;
 
 import org.testng.annotations.Test;
 

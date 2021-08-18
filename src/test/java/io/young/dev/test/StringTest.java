@@ -1,9 +1,8 @@
-package io.young.dev;
+package io.young.dev.test;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 
 public class StringTest {
