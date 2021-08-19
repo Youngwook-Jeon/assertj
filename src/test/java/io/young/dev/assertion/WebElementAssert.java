@@ -9,6 +9,10 @@ public class WebElementAssert extends AbstractAssert<WebElementAssert, WebElemen
         super(webElement, WebElementAssert.class);
     }
 
+    public static WebElementAssert assertThat(WebElement element) {
+        return new WebElementAssert(element);
+    }
+
     public WebElementAssert isDisplayed() {
         isNotNull();
         if (!actual.isDisplayed()) {
